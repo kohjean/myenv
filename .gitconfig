@@ -1,0 +1,26 @@
+[alias]
+	cm = commit
+	cmm = commit -m
+	cmamne = commit --amend --no-edit
+	fc = commit --allow-empty -m \"first commit\"
+	br = branch
+	co = checkout
+	cob = checkout -b
+	s = status
+	d = diff
+	dc = diff --cached
+	sw = switch
+	st = stash
+	sta = stash apply
+	stp = stash pop
+	stl = stash list
+	std = stash drop
+	sts = stash save
+	mg = merge
+	l = log
+	lo = log --oneline
+	lp = log -p
+	lns = log --name-status
+	gol = log --reverse
+	tree = log --graph --all --format=\"%x09%C(cyan bold)%an%Creset%x09%C(yellow)%h%Creset %C(magenta reverse)%d%Creset %s\"
+

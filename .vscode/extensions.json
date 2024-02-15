@@ -1,0 +1,24 @@
+{
+  "recommendations": [
+    "ms-ceintl.vscode-language-pack-ja",
+    "steoates.autoimport",
+    "formulahendry.auto-rename-tag",
+    "jeff-hykin.better-dockerfile-syntax",
+    "streetsidesoftware.code-spell-checker",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "yzhang.markdown-all-in-one",
+    "pkief.markdown-checkbox",
+    "bierner.markdown-checkbox",
+    "yzane.markdown-pdf",
+    "bierner.markdown-mermaid",
+    "davidanson.vscode-markdownlint",
+    "esbenp.prettier-vscode",
+    "wallabyjs.quokka-vscode",
+    "wayou.vscode-todo-highlight",
+    "stylelint.vscode-stylelint",
+    "kimuson.ts-type-expand",
+    "chakrounanas.turbo-console-log",
+    "gruntfuggly.todo-tree"
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "[graphql]": {
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.formatOnSave": true
+  },
+  // markdownの指定上手くできてるか怪しいかもしれん
+  "[markdown]": {
+    "cSpell.advanced.feature.useReferenceProviderRemove": "/^#+\\s/",
+    "cSpell.advanced.feature.useReferenceProviderWithRename": true,
+    "cSpell.fixSpellingWithRenameProvider": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+    "editor.quickSuggestions": {
+      "other": "off"
+    },
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.wordWrap": "on"
+  },
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.wordBasedSuggestions": "off"
+  },
+  "auto-close-tag.activationOnLanguage": [
+    "html",
+    "xml",
+    "javascript",
+    "javascriptreact",
+    "typescriptreact"
+    // "php",
+    // "blade"
+  ],
+  "cSpell.caseSensitive": true,
+  "cSpell.userWords": ["uuidv"],
+  "css.validate": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.wordWrap": "on",
+  "django.snippets.exclude": ["cms", "wagtail"],
+  "editor.accessibilitySupport": "off",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fastScrollSensitivity": 3,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.guides.bracketPairs": false,
+  "editor.guides.indentation": false,
+  "editor.inlayHints.enabled": "off",
+  "editor.renderControlCharacters": false,
+  "editor.tabSize": 2,
+  "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+  "emmet.triggerExpansionOnTab": true,
+  "eslint.packageManager": "yarn",
+  "files.autoSave": "afterDelay",
+  "files.eol": "\n",
+  "files.saveConflictResolution": "overwriteFileOnDisk",
+  "git.autofetch": true,
+  "git.openRepositoryInParentFolders": "never",
+  "javascript.format.enable": false,
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+  "javascript.format.insertSpaceAfterKeywordsInControlFlowStatements": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "less.validate": false,
+  "prettier.jsxSingleQuote": true,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "scss.validate": true,
+  "todo-tree.general.tags": [
+    "NOTE",
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.highlights.customHighlight": {
+    "BUG": {
+      "icon": "bug"
+    },
+    "FIXME": {
+      "background": "fuchsia",
+      "foreground": "white",
+      "icon": "flame"
+    },
+    "HACK": {
+      "icon": "tools"
+    },
+    "NOTE": {
+      "background": "dodgerblue",
+      "foreground": "white"
+    },
+    "TODO": {
+      "background": "gold",
+      "foreground": "white"
+    },
+    "XXX": {
+      "icon": "$(close)"
+    }
+  },
+  "turboConsoleLog.includeFileNameAndLineNum": false,
+  "turboConsoleLog.logMessagePrefix": "",
+  "turboConsoleLog.quote": "'",
+  // モジュールの自動インポート時にbaseUrlからの絶対パスを使う
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorCustomizations": {
+    "editor.background": "#0014",
+    "editor.foreground": "#fff",
+    "editor.lineHighlightBackground": "#1073cf2d",
+    "editor.lineHighlightBorder": "#9fced11f",
+    "editorGroupHeader.tabsBackground": "#0014"
+  },
+  "workbench.editor.showTabs": "multiple",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb",
+    "*.pdf": "default",
+    "git-rebase-todo": "default"
+  }
+}
